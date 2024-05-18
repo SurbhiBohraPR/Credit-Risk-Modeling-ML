@@ -63,6 +63,18 @@ Priority Levels - P1 - Best
               Used to identify multicollinearity among IVs
               Takes R-squared value for each IV and eliminate if crosses a threshold 
 
+               VIF = 1/1-R^2
+
+
+               VIF ranges from 1 from infinity
+               VIF = 1 : No multicollinearity
+               VIF between 1 and 5 : Low multicollinearity
+               VIF between 5 and 10 : Moderate multicollinearity
+               VIF above 10 : High multicollinearity
+
+               In Banking project we take threshold as 6 if vif >6 drop else keep
+
+
               
 
 
