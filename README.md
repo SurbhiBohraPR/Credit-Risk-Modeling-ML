@@ -73,8 +73,6 @@ Priority Levels - P1 - Best
                VIF above 10 : High multicollinearity
 
                In Banking project we take threshold as 6 if vif >6 drop else keep
-
-
               
 
 
@@ -85,6 +83,15 @@ Priority Levels - P1 - Best
 
   correlation is ony for the linear correlation between the columns 
   In convex function , correlation gives you misleading values  
+
+  # VIF = Multiple vs sequencial 
+  In Multiple VIf we regresss each feature with other feature without dropping multicollinear feature
+      ex V1 , v2 , v3 , v4 , v5 , v6 , v7 , v8, v9 , 10 
+  In Sequencial ViF we regress each feature with other but drop if one comes as multicollinear
+       ex V1 , v2 , v3 , v4 , v5 , v6 , v7 , v8, v9 , v10  / regressing v1 with all ans v2 comes as multicollinear therefore drop v2
+
+           V1 , v3 , v4 , v5 , v6 , v7 , v8, v9 , 10
+          
   
   
   
