@@ -58,6 +58,13 @@ Priority Levels - P1 - Best
 
 
  # Multicollinearity for all the numerical features ( to see if there is any relation between all the columns or not) (VIF)
+  Removing mticollinarity is important ( we calculate VIF value for each column)
+              Variance Inflation Factor
+              Used to identify multicollinearity among IVs
+              Takes R-squared value for each IV and eliminate if crosses a threshold 
+
+              
+
 
   Multicollinearity vs correlation 
   Multicollinearity = predictibility
