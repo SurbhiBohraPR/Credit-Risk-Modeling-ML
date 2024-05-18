@@ -87,6 +87,9 @@ Priority Levels - P1 - Best
   # VIF = Multiple vs sequencial 
   In Multiple VIf we regresss each feature with other feature without dropping multicollinear feature
       ex V1 , v2 , v3 , v4 , v5 , v6 , v7 , v8, v9 , 10 
+      we  loose all multicolinear in one shot in parallel multicolinear ex v3 v4 v5 are multicollinear but but we can take v5 as one feature 
+
+      
   In Sequencial ViF we regress each feature with other but drop if one comes as multicollinear
        ex V1 , v2 , v3 , v4 , v5 , v6 , v7 , v8, v9 , v10  / regressing v1 with all ans v2 comes as multicollinear therefore drop v2
 
