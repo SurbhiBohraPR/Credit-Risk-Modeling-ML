@@ -96,12 +96,35 @@ Priority Levels - P1 - Best
            V1 , v3 , v4 , v5 , v6 , v7 , v8, v9 , 10
           
   
-  
+# Now we will do Anova test on all 39 feature with tagert variable : 
+                        There are oneway and two way anova
+ we will find p value for all fetaure value and comapre with the 0.05 
+                       pvalue < 0.05 = keep the feature
   
  
+label encoading for the catagorical columns - for which we can do the sequence - ssc-0 , graduate-1
+one hot encoading - get dummies - for cataorical - which we cannot give sequence - 
+
+Classification algorithums
+    random forest 
+    xgboost
+    decision treee
+
+ In train test split we take random_state = 42 ( we can take anything here)
+
+ ####
+ Accuracy = class p1 / totoal sum class
+
+ class A
+ Precision = 
+ Recall = 
+ F1-score = 2*p*r/(p+r)
 
 
-
+# Confusion Matrix 
+        Red     Blue 
+Red      70        30
+Blue     20        80
 
 
   
